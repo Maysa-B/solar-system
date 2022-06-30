@@ -1,0 +1,107 @@
+/* stylelint-disable selector-max-specificity */
+
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+/* stylelint-disable font-family-name-quotes */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: 'Epilogue';
+}
+
+h1 {
+  font-size: 50px;
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 35px;
+  margin: 8px 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.planets-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.planet-card {
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+#Mercúrio {
+  width: 41px;
+}
+
+#Vênus {
+  width: 102px;
+}
+
+#Terra {
+  width: 106px;
+}
+
+#Marte {
+  width: 66px;
+}
+
+#Júpiter {
+  width: 272px;
+}
+
+#Saturno {
+  width: 282.41px;
+}
+
+#Urano {
+  width: 144px;
+}
+
+#Netuno {
+  width: 144px;
+}
+
+.container-missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-mission {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px;
+  transition: 0.3s;
+  width: 250px;
+}
+
+.card-mission div {
+  padding-top: 10px;
+}
+
+.card-mission h3 {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.card-mission:hover, .planet-card:hover {
+  background-color: white;
+  color: black;
+  width: 300px;
+}
