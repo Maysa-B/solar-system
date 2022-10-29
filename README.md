@@ -8,9 +8,9 @@ Project developed at the end of block 10, in which it was studied about _React a
 
 This project consisted of creating several **React components** to compose a web page.
 
-----------
+## Deploy
 
-> It's important to highlight that only the documents produced by me are in the repository. For some of the projects, Trybe, which is the course that I'm following, gives us some functions/objects/styling that helps us to conclude the project, so the repository may seem incomplete.
+If you are interested in seeing the final result you can access it by this [link](https://solar-system-maysa-b.vercel.app/).
 
 ----------
 
